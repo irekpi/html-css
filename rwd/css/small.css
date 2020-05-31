@@ -1,0 +1,8 @@
+/*// Small devices (landscape phones, 576px and up)*/
+/*@media (min-width: 576px) { ... }*/
+
+.header-img{
+    background-image: url('../img/medium.jpg');
+}
+
+

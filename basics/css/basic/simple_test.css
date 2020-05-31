@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    font-family: Comfortaa;
+    color: wheat;
+    background-color: black;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+.square{
+    position: absolute;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    cursor: crosshair;
+}
+.blue{
+    background-color: steelblue;
+    left: 20%;
+}
+.blue:hover ~ .bg{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+    left: 40%;
+}
+.red{
+    background-color: red;
+    left: 60%;
+}
+.gold{
+    background-color: gold;
+    left: 80%;
+}

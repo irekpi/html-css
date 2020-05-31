@@ -1,0 +1,39 @@
+/*// Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) { ... }*/
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+}
+
+.nav-desktop ul {
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-desktop li a {
+    padding: 20px;
+    text-transform: lowercase;
+    background-color: #808080;
+    text-decoration: none;
+    font-weight: bold;
+    color: #363434;
+    transition: color 0.3s;
+}
+.nav-desktop li a:hover{
+    color: #0b5fde;
+}
+
+/*main*/
+.main-product {
+    width: 49%;
+}
+.product-text{
+    font-size: 16px;
+}

@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(128, 128, 128, 0.3) 95%);
+}
+
+section {
+    margin: 40px 0px 40px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*Nav*/
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 60px 0;
+    line-height: 60px;
+    background-color: #808080;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.nav-mobile {
+    margin-right: 100%;
+}
+
+.nav-mobile button {
+    padding: 0 30px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    line-height: 60px;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+/*header*/
+.header-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.header-img {
+    position: relative;
+    height: 360px;
+    background-image: url('../img/small.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header-text h1 {
+    margin-bottom: 5px;
+}
+
+.header-text p {
+    font-size: 14px;
+}
+
+/*main*/
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.about-us {
+    margin: 20px 0;
+}
+
+.about-us h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.underline {
+    position: relative;
+    text-align: center;
+}
+
+.line {
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: -15px;
+    background-color: #0b5fde;
+    width: 60px;
+    height: 3px;
+}
+
+.about-us p {
+    padding: 0 20px;
+}
+
+.main-product {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-product:hover .product-text h3 {
+    transform: scale(1.3);
+}
+
+.first-product {
+    background-image: url('../img/moto.jpg');
+}
+
+.second-product {
+    background-image: url('../img/facade.jpg');
+}
+
+.third-product {
+    background-image: url('../img/fantasy.jpg');
+}
+
+.fourth-product {
+    background-image: url('../img/biker.jpg');
+}
+
+.product-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.product-text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    transition: transform .3s;
+}
+
+/*contact*/
+.contact {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 20px 0 5px;
+}
+
+.contact i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/*footer*/
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #8e8e8e;
+    border-top: 3px solid #767676;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (min-width: 400px) {
+    .header-text h1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .product-text h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,47 @@
+h1{
+    color: blue;
+}
+li{
+    color: rgb(30, 50, 40);
+}
+p{
+    color: brown;
+}
+h4{
+    color: rgba(13, 90, 140, 2);
+}
+body{
+    /*background: url("https://image.shutterstock.com/z/stock-vector-political-map-of-the-world-gray-world-map-countries-paper-world-map-on-a-grey-background-710398813.jpg");*/
+    font-family: 'Comfortaa', cursive;
+    background-color: #333;
+    color: aqua;
+    align-content: center;
+}
+div{
+    background: blue;
+    border: orange;
+    border-width: thick;
+    border-style: solid;
+}
+span{
+    background: red;
+    color: black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
+.first_class{
+    color: blue;
+}
+.sec_class{
+    background: yellow;
+}
+.tablepadding{
+    padding: 150px;
+}
+#first_id{
+    font-family: 'Bellota', cursive;
+    color: aqua;
+}
