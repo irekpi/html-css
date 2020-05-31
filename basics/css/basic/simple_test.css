@@ -1,21 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     position: relative;
     font-family: Comfortaa;
     color: wheat;
     background-color: black;
 }
-.bg{
+
+.bg {
     width: 100vw;
     height: 100vh;
     background-color: pink;
 }
-.square{
+
+.square {
     position: absolute;
     top: 10px;
     width: 60px;
@@ -23,22 +25,27 @@ body{
     border: 2px solid black;
     cursor: crosshair;
 }
-.blue{
+
+.blue {
     background-color: steelblue;
     left: 20%;
 }
-.blue:hover ~ .bg{
+
+.blue:hover ~ .bg {
     background-color: blue;
 }
-.green{
+
+.green {
     background-color: green;
     left: 40%;
 }
-.red{
+
+.red {
     background-color: red;
     left: 60%;
 }
-.gold{
+
+.gold {
     background-color: gold;
     left: 80%;
 }
